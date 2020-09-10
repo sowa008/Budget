@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    
+	<head>
+	    
+		<meta charset="utf-8" />
+	    
+		<title>Add expense</title>
+	    
+		<meta name="description" content="BudgetApp: Add expense" />
+	    
+		<meta name="keywords" content="budgetapp, home, budget, plan, planner, manage, menu, user, add, expense, form" />
+	    
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		
+	    <link rel="stylesheet" href="style.css" type="text/css" />
+	
+	    <link rel="stylesheet" href="css/fontello.css">
+	
+	    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+	
+    </head>
+
+    <body>
+
+	    <header>
+			<h class="icon-credit-card"> BudgetApp&trade;</h> 
+	    </header>
+		
+		<main>
+			   
+			   <div id="menu">
+			   <nav>
+					<div><h1 class="icon-credit-card">Menu</h1></div>
+				    <div class="button">
+					    <span style="color: green;" class="icon-money"> Add income </span>
+					</div>
+					<div class="button">
+					    <span style="color: red;" class="icon-money"> Add expense </span>
+					</div>			
+				    <div class="button"><h class="icon-chart-pie"> Show balance</div>								
+				    <div class="button"><h class="icon-cog"> Settings</div>											
+				    <div class="button">
+						<span style="color: brown; font-weight:700;" class="icon-logout"> Log out </span>
+					</div>
+					
+				</nav>
+				</div>
+				
+				<div id="userspace">
+
+					<div id="bigcontainer">
+		
+						<div class="bigcontainerhalf">
+				
+							<form>
+								<div class="box">
+									Add expense </br>
+									<input type="number" step="0.01" min='0' required placeholder="amount" onfocus="this.placeholder=' ' " onblur="this.placeholder='amount' ">
+								</div>
+							</form>
+							
+							<form>
+								<div class="box">
+									Date </br>
+								<input type="date">
+								</div>
+							</form>
+					
+							<form>
+								<div class="box">
+									<label for="paymentmethod">Payment method</label>
+									<select id="paymentmethod">				
+										<option value="1">cash</option>
+										<option value="2">credit card</option>
+										<option value="3">debit card</option>			
+									</select>
+								</div>
+							</form>
+							
+						</div>
+		
+						<div class="bigcontainerhalf">
+						
+							<form>
+								<div class="box">
+									<label for="cathegory">Choose cathegory</label>
+									<select id="cathegory">				
+										<option value="1">food</option>
+										<option value="2">rent</option>
+										<option value="3">bills</option>			
+										<option value="4">transportation</option>			
+										<option value="5">telecommunication</option>			
+										<option value="6">healthcare</option>			
+										<option value="7">clothing</option>			
+										<option value="8">kids</option>			
+										<option value="9">entertainment</option>			
+										<option value="10">hygiene</option>			
+										<option value="11">books</option>			
+										<option value="12">savings</option>			
+										<option value="13">debts</option>			
+										<option value="14">other expenses</option>			
+									</select>
+								</div>
+							</form>
+							
+							<form>
+							<div id="commentbox">
+								<div><label for="comment">Comment (optional)			</label></div>
+								<textarea id="comment" rows="5" cols="25"></textarea>
+							</div>
+							</form>	
+								
+						</div>
+						
+						<form>
+								<div  id="addexpense"> 		
+									<input type="submit"value="Add expense">
+								</div>
+						</form>
+					
+					</div>
+					
+					
+
+				</div>
+			
+		</main>
+	
+	    <footer><i class="icon-credit-card"></i>BudgetApp&trade; was created in 2020	
+		</footer>
+	
+
+    </body>
+	
+</html>
