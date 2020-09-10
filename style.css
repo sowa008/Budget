@@ -15,7 +15,6 @@ header
 	font-weight: 700;
 	text-align: center;
 	color: #6a1b9a;
-	font-family: 'Ubuntu', sans-serif;
 }
 
 main
@@ -34,6 +33,58 @@ footer
 	color: #fff;
 	text-align: center;
 	font-size: 16px;
+}
+
+#menu
+{
+	float: left;
+	width: 300px;
+	height: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #ce93d8;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	border-radius: 10px;
+}
+
+h1
+{
+	width: 100%;
+	text-align: center;
+	color: #e1bee7;
+}
+
+#welcome
+{
+	padding: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #6a1b9a;
+}
+
+#userspace
+{
+	float: left;
+	width: 1000px;
+	height: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #fff5fc;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	border-radius: 10px;
 }
 
 #container
